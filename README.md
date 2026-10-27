@@ -24,7 +24,7 @@ This project documents the setup of a virtual cybersecurity lab using Oracle Vir
 ### Step 2: Install the VirtualBox
 Oracle VirtualBox was installed to create and manage the virtual environment required for the cybersecurity lab.
 
-![VirtualBox Installation](01-virtualbox-installation.png)
+![VirtualBox Installation](01-virtualbox-installation.PNG)
 
 ### Step 3: Create a NAT network in VirtualBox
 A NAT Network was configured in VirtualBox to provide network connectivity for the virtual machines and support communication within the lab.
