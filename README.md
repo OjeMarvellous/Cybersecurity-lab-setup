@@ -29,17 +29,17 @@ Oracle VirtualBox was installed to create and manage the virtual environment req
 ### Step 3: Create a NAT network in VirtualBox
 A NAT Network was configured in VirtualBox to provide network connectivity for the virtual machines and support communication within the lab.
 
-![NAT Network Configuration](02-nat-network-setup.png)
+![NAT Network Configuration](02-nat-network-setup.PNG)
 
 ### Step 4: Deploy Kali Linux
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into Oracle VirtualBox.
 
-![Kali Linux Virtual Machine](03-kali-linux-vm.png)
+![Kali Linux Virtual Machine](03-kali-linux-vm.PNG)
 
 ### Step 5: Configure Kali Linux Network Connectivity
 The network settings within Kali Linux were reviewed and configured to prepare the virtual machine for networking and security exercises.
 
-![Kali Linux Network Configuration](04-kali-network-configuration.png)
+![Kali Linux Network Configuration](04-kali-network-configuration.PNG)
 
 ### Step 6: Create a clean Virtual Machine Snapshot
 After the initial setup was completed, a VirtualBox snapshot was saved to preserve the configured state of the virtual machine. This provides a recovery point for future lab activities.
