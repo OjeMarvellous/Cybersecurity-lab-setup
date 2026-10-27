@@ -1,22 +1,22 @@
 
 # Cybersecurity Lab Setup
 
-## Project Description 
+## 💻 Project Description 
 This project documents the setup of a virtual cybersecurity lab using Oracle VirtualBox and Kali Linux. The goal was to configure a NAT Network, import a Kali Linux virtual machine, and prepare the environment for cybersecurity and ethical hacking practice.
 
-## Objectives
+## 📌 Objectives
 - Install and configure Oracle VirtualBox.
 - Create a NAT Network using the `10.0.0.0/24` network range.
 - Import and configure a Kali Linux virtual machine.
 - Set up Kali Linux network settings.
 - Prepare a virtual lab environment for future security exercises.
 
-## Resources and tools
+## ⚙️ Resources and tools
 - Oracle VirtualBox 7.2
 - Kali Linux
 - 7-Zip
 - NAT Networking
-## 🪜 Lab Deployment Steps
+##  Lab Setup Procedure
 
 ### Step 1: Install and configure 7-Zip
 7-Zip was installed to unpack the compressed Kali Linux virtual machine files before importing them into VirtualBox.
