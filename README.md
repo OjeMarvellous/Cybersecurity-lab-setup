@@ -16,28 +16,34 @@ This project documents the setup of a virtual cybersecurity lab using Oracle Vir
 - Kali Linux
 - 7-Zip
 - NAT Networking
+## 🪜 Lab Deployment Steps
 
-## Lab Setup Process
-1. Downloaded and installed 7-Zip.
-2. Installed Oracle VirtualBox.
-3. Created a NAT Network with the address range `10.0.0.0/24`.
-4. Downloaded and imported the Kali Linux virtual machine.
-5. Configured the network settings in Kali Linux.
-6. Captured screenshots documenting the setup process.
+### Step 1: Install and configure 7-Zip
+7-Zip was installed to unpack the compressed Kali Linux virtual machine files before importing them into VirtualBox.
 
-## Screenshots
+### Step 2: Install the VirtualBox
+Oracle VirtualBox was installed to create and manage the virtual environment required for the cybersecurity lab.
 
-### 1. Project Overview
-![Project Overview](1-screenshot-title-image.png)
+![VirtualBox Installation](01-virtualbox-installation.png)
 
-### 2. VirtualBox Network Configuration
-![VirtualBox Network Settings](2-screenshot-network-settings-1.png)
+### Step 3: Create a NAT network in VirtualBox
+A NAT Network was configured in VirtualBox to provide network connectivity for the virtual machines and support communication within the lab.
 
-### 3. Kali Linux Virtual Machine
-![Kali Linux](3-screenshot-kali-linux.png)
+![NAT Network Configuration](02-nat-network-setup.png)
 
-### 4. Kali Linux Network Configuration
-![Kali Linux Network Settings](4-screenshot-kali-network-settings.png)
+### Step 4: Deploy Kali Linux
+The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into Oracle VirtualBox.
+
+![Kali Linux Virtual Machine](03-kali-linux-vm.png)
+
+### Step 5: Configure Kali Linux Network Connectivity
+The network settings within Kali Linux were reviewed and configured to prepare the virtual machine for networking and security exercises.
+
+![Kali Linux Network Configuration](04-kali-network-configuration.png)
+
+### Step 6: Create a clean Virtual Machine Snapshot
+After the initial setup was completed, a VirtualBox snapshot was saved to preserve the configured state of the virtual machine. This provides a recovery point for future lab activities.
+
 
 ## Learning Outcomes
 Through this project, I gained practical experience with virtual machine setup, NAT networking, Linux lab configuration, and preparing a controlled environment for cybersecurity practice.
