@@ -39,7 +39,7 @@ The Kali Linux virtual machine was downloaded from the official Kali Linux websi
 ### Step 5: Configure Kali Linux Network Connectivity
 The network settings within Kali Linux were reviewed and configured to prepare the virtual machine for networking and security exercises.
 
-![Kali Linux Network Configuration](04-kali-network-configuration.PNG)
+![Kali Linux Network Configuration](04-kali-network-configuration.png)
 
 ### Step 6: Create a clean Virtual Machine Snapshot
 After the initial setup was completed, a VirtualBox snapshot was saved to preserve the configured state of the virtual machine. This provides a recovery point for future lab activities.
